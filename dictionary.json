@@ -1,0 +1,124 @@
+{
+  "types": [
+    {
+      "unlock_id": 1,
+      "name": "Calcipher",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 2,
+      "name": "Plantson",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 3,
+      "name": "Nyaru",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 4,
+      "name": "Nuki",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 5,
+      "name": "Edeback",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 6,
+      "name": "Yura",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 7,
+      "name": "Dorago",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 8,
+      "name": "Zorzal",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 9,
+      "name": "Howly",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 10,
+      "name": "Goshii",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 11,
+      "name": "Rexivoro",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 12,
+      "name": "Atlas",
+      "type": "Valiant"
+    },
+    {
+      "unlock_id": 13,
+      "name": "Trainer's Boots",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 14,
+      "name": "Zorzal's Enhancer",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 15,
+      "name": "Lucky Talisman",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 16,
+      "name": "Clarity Cube",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 17,
+      "name": "Illumination Vegetables",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 18,
+      "name": "Valiant's Food",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 19,
+      "name": "Valiant's Display",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 20,
+      "name": "Valiant Spare Part",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 21,
+      "name": "Valiant's Memories",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 22,
+      "name": "Tammer's Support",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 23,
+      "name": "Squeaky Hammer",
+      "type": "Item"
+    },
+    {
+      "unlock_id": 24,
+      "name": "Rexivoro's Food",
+      "type": "Item"
+    }
+  ]
+}
