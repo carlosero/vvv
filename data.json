@@ -1,165 +1,184 @@
 {
-  "message": "User data retrieved successfully",
-  "image": "/user/image/65954004",
-  "energy": 2000,
-  "energy_cap": 2000,
-  "refills": 6,
-  "click": 3,
-  "energy_level": 3,
-  "click_level": 2,
-  "experience": 289541.9,
-  "experience_per_second": 488879,
-  "server_reset": 31485,
-  "daily_reward": {
-      "day": 2,
-      "claimed": true
-  },
-  "combo": {
-      "combo": [
-          1,
-          16
-      ],
-      "claimed": false,
-      "combo_completed": false
-  },
-  "unlocks": {
-      "1": {
-          "count": 14,
-          "unlock_id": 1,
-          "last_update": 1721446996,
-          "next_unlock_in": 0
-      },
-      "2": {
-          "count": 15,
-          "unlock_id": 2,
-          "last_update": 1721484920,
-          "next_unlock_in": 0
-      },
-      "3": {
-          "count": 12,
-          "unlock_id": 3,
-          "last_update": 1721440905,
-          "next_unlock_in": 0
-      },
-      "4": {
-          "count": 11,
-          "unlock_id": 4,
-          "last_update": 1721444691,
-          "next_unlock_in": 0
-      },
-      "5": {
-          "count": 10,
-          "unlock_id": 5,
-          "last_update": 1721441519,
-          "next_unlock_in": 0
-      },
-      "6": {
-          "count": 10,
-          "unlock_id": 6,
-          "last_update": 1721450931,
-          "next_unlock_in": 0
-      },
-      "7": {
-          "count": 10,
-          "unlock_id": 7,
-          "last_update": 1721484886,
-          "next_unlock_in": 0
-      },
-      "8": {
-          "count": 16,
-          "unlock_id": 8,
-          "last_update": 1721484973,
-          "next_unlock_in": 0
-      },
-      "9": {
-          "count": 13,
-          "unlock_id": 9,
-          "last_update": 1721484852,
-          "next_unlock_in": 0
-      },
-      "11": {
-          "count": 3,
-          "unlock_id": 11,
-          "last_update": 1721484036,
-          "next_unlock_in": 2722
-      },
-      "12": {
-          "count": 1,
-          "unlock_id": 12,
-          "last_update": 1721484032,
-          "next_unlock_in": 2718
-      },
-      "13": {
-          "count": 10,
-          "unlock_id": 13,
-          "last_update": 1721453196,
-          "next_unlock_in": 0
-      },
-      "14": {
-          "count": 5,
-          "unlock_id": 14,
-          "last_update": 1721484903,
-          "next_unlock_in": 0
-      },
-      "16": {
-          "count": 7,
-          "unlock_id": 16,
-          "last_update": 1721484833,
-          "next_unlock_in": 0
-      },
-      "18": {
-          "count": 11,
-          "unlock_id": 18,
-          "last_update": 1721484869,
-          "next_unlock_in": 0
-      },
-      "19": {
-          "count": 11,
-          "unlock_id": 19,
-          "last_update": 1721443654,
-          "next_unlock_in": 0
-      },
-      "20": {
-          "count": 10,
-          "unlock_id": 20,
-          "last_update": 1721486559,
-          "next_unlock_in": 0
-      },
-      "21": {
-          "count": 11,
-          "unlock_id": 21,
-          "last_update": 1721484942,
-          "next_unlock_in": 0
-      },
-      "23": {
-          "count": 15,
-          "unlock_id": 23,
-          "last_update": 1721485043,
-          "next_unlock_in": 0
-      }
-  },
-  "sequence": {
-      "completed": true,
-      "today_sequence_numbers": [
-          4,
-          12,
-          5,
-          6
-      ],
-      "sequence_numbers": [
-          4,
-          12,
-          6,
-          5
-      ],
-      "sequence_validation": [
-          true,
-          true,
-          true,
-          true
-      ]
-  },
-  "next_retry_in": 0,
-  "experience_gained": 32863.50000000003,
-  "farm_time": 242
+    "message": "User data retrieved successfully",
+    "image": "/user/image/65954004",
+    "energy": 2000,
+    "energy_cap": 2000,
+    "refills": 0,
+    "click": 3,
+    "energy_level": 3,
+    "click_level": 2,
+    "experience": 499926.9,
+    "experience_per_second": 1332381,
+    "server_reset": 75764,
+    "daily_reward": {
+        "day": 3,
+        "claimed": true
+    },
+    "combo": {
+        "combo": [
+            11,
+            13,
+            16
+        ],
+        "claimed": true,
+        "combo_completed": true
+    },
+    "unlocks": {
+        "1": {
+            "count": 14,
+            "unlock_id": 1,
+            "last_update": 1721446996,
+            "next_unlock_in": 0
+        },
+        "2": {
+            "count": 17,
+            "unlock_id": 2,
+            "last_update": 1721530503,
+            "next_unlock_in": 0
+        },
+        "3": {
+            "count": 15,
+            "unlock_id": 3,
+            "last_update": 1721497940,
+            "next_unlock_in": 0
+        },
+        "4": {
+            "count": 16,
+            "unlock_id": 4,
+            "last_update": 1721530598,
+            "next_unlock_in": 0
+        },
+        "5": {
+            "count": 15,
+            "unlock_id": 5,
+            "last_update": 1721530268,
+            "next_unlock_in": 0
+        },
+        "6": {
+            "count": 10,
+            "unlock_id": 6,
+            "last_update": 1721450931,
+            "next_unlock_in": 0
+        },
+        "7": {
+            "count": 11,
+            "unlock_id": 7,
+            "last_update": 1721530529,
+            "next_unlock_in": 0
+        },
+        "8": {
+            "count": 17,
+            "unlock_id": 8,
+            "last_update": 1721515602,
+            "next_unlock_in": 0
+        },
+        "9": {
+            "count": 16,
+            "unlock_id": 9,
+            "last_update": 1721530483,
+            "next_unlock_in": 0
+        },
+        "10": {
+            "count": 1,
+            "unlock_id": 10,
+            "last_update": 1721530284,
+            "next_unlock_in": 6849
+        },
+        "11": {
+            "count": 6,
+            "unlock_id": 11,
+            "last_update": 1721522894,
+            "next_unlock_in": 0
+        },
+        "12": {
+            "count": 3,
+            "unlock_id": 12,
+            "last_update": 1721523145,
+            "next_unlock_in": 0
+        },
+        "13": {
+            "count": 11,
+            "unlock_id": 13,
+            "last_update": 1721522902,
+            "next_unlock_in": 0
+        },
+        "14": {
+            "count": 6,
+            "unlock_id": 14,
+            "last_update": 1721515273,
+            "next_unlock_in": 0
+        },
+        "15": {
+            "count": 1,
+            "unlock_id": 15,
+            "last_update": 1721513036,
+            "next_unlock_in": 401
+        },
+        "16": {
+            "count": 8,
+            "unlock_id": 16,
+            "last_update": 1721522907,
+            "next_unlock_in": 0
+        },
+        "18": {
+            "count": 12,
+            "unlock_id": 18,
+            "last_update": 1721530386,
+            "next_unlock_in": 0
+        },
+        "19": {
+            "count": 14,
+            "unlock_id": 19,
+            "last_update": 1721530544,
+            "next_unlock_in": 0
+        },
+        "20": {
+            "count": 11,
+            "unlock_id": 20,
+            "last_update": 1721530449,
+            "next_unlock_in": 0
+        },
+        "21": {
+            "count": 11,
+            "unlock_id": 21,
+            "last_update": 1721484942,
+            "next_unlock_in": 0
+        },
+        "22": {
+            "count": 1,
+            "unlock_id": 22,
+            "last_update": 1721530603,
+            "next_unlock_in": 17968
+        },
+        "23": {
+            "count": 16,
+            "unlock_id": 23,
+            "last_update": 1721515596,
+            "next_unlock_in": 0
+        }
+    },
+    "sequence": {
+        "completed": true,
+        "today_sequence_numbers": [
+            19,
+            10,
+            12,
+            7
+        ],
+        "sequence_numbers": [
+            19,
+            12,
+            10,
+            7
+        ],
+        "sequence_validation": [
+            true,
+            true,
+            true,
+            true
+        ]
+    },
+    "next_retry_in": 3264,
+    "experience_gained": 7772.200000000012,
+    "farm_time": 21
 }

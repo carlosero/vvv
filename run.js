@@ -46,7 +46,6 @@ const getDict = (unlock_id) => {
 let table = [];
 for (let i = 0; i < configUnlocks.length; i++) {
   let configUnlock = configUnlocks[i];
-  console.log("configUnlock:", configUnlock);
   let userUnlock = userUnlocks.find(
     (userUnlock) => userUnlock.unlock_id === configUnlock.id
   );
@@ -54,8 +53,33 @@ for (let i = 0; i < configUnlocks.length; i++) {
   let current_level = userUnlock?.count || 0;
   let exp_required = configUnlock.prices[current_level];
   let exp_reward = configUnlock.experiences[current_level];
-  let percentage = (exp_reward / exp_required) * 100;
   let configUnlockDict = getDict(configUnlock.id);
+
+  let requiredExp = 0;
+  let requiredExpPerHour = 0;
+  if (configUnlock.required_id > 0) {
+    const userUnlockedRequired = userUnlocks.find(
+      (usrUnlock) => usrUnlock.unlock_id === configUnlock.required_id
+    );
+    const unlockRequired = configUnlocks.find(
+      (cfgUnlock) => cfgUnlock.id === configUnlock.required_id
+    );
+
+    if (
+      !userUnlockedRequired ||
+      userUnlockedRequired.count < configUnlock.required_count
+    ) {
+      // sum the total of exp required and exp per hour to get the total exp required
+      for (
+        let j = userUnlockedRequired?.count || 0;
+        j < configUnlock.required_count;
+        j++
+      ) {
+        exp_required += unlockRequired.prices[j];
+        exp_reward += unlockRequired.experiences[j];
+      }
+    }
+  }
   let requiredDict =
     configUnlock.required_id > 0 ? getDict(configUnlock.required_id) : null;
   table.push({
@@ -75,7 +99,7 @@ for (let i = 0; i < configUnlocks.length; i++) {
     current_level: current_level,
     exp_required: exp_required,
     exp_reward: exp_reward,
-    percentage: percentage,
+    percentage: (exp_reward / exp_required) * 100,
   });
 }
 
